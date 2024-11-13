@@ -39,4 +39,16 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'off',
 		'import/no-named-as-default': 'off',
 	},
+	"ignorePatterns": [
+		'eslint.config.js',
+		'src/',
+		'eslint.config.js',
+		'node_modules/*',
+		'public/',
+		'.storybook/',
+		'build/',
+		'dist/',
+		'webpack/*.js',
+		'package*.json',
+	]
 };

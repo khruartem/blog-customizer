@@ -177,3 +177,11 @@ export const defaultArticleState = {
 };
 
 export type ArticleStateType = typeof defaultArticleState;
+
+export type SelectedOption = {
+	'font-family': OptionType,
+	'font-color': OptionType,
+	'font-size': OptionType,
+	'container-width': OptionType,
+	'bg-color': OptionType
+}

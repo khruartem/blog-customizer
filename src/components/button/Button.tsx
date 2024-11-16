@@ -17,7 +17,7 @@ export const Button = ({
 		[styles.button_submit]: type === 'submit',
 		[styles.button_reset]: type === 'reset',
 	});
-	
+
 	return (
 		<button className={className} type={type} onClick={onClick}>
 			<Text weight={800} uppercase>

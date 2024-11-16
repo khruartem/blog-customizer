@@ -40,9 +40,7 @@ module.exports = {
 		'import/no-named-as-default': 'off',
 	},
 	"ignorePatterns": [
-		'eslint.config.js',
-		'src/',
-		'eslint.config.js',
+		'.eslintrc.js',
 		'node_modules/*',
 		'public/',
 		'.storybook/',
@@ -50,5 +48,6 @@ module.exports = {
 		'dist/',
 		'webpack/*.js',
 		'package*.json',
+		'src/*'
 	]
 };

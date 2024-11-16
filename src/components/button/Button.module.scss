@@ -19,22 +19,22 @@
 }
 
 .button_submit:active {
-	background: var(--gold, #FFEDAB);
+	background: var(--gold, #ffedab);
 }
 
 .button_submit:hover {
-	background: var(--gold, #FFEDAB);
+	background: var(--gold, #ffedab);
 }
 
 .button_reset:active {
-	background: var(--black, #000);
+	background: var(--black, #000000);
 }
 
 .button_reset:hover {
-	background: var(--gold, #000);
-	color: #fff;
+	color: #ffffff;
+	background: var(--gold, #000000);
 }
 
 .button_reset:hover > div {
-	color: #fff;
+	color: #ffffff;
 }

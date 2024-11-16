@@ -7,20 +7,20 @@ import clsx from 'clsx';
 export type OnClick = () => void;
 
 type ArrowButtonProps = {
-	handleClick: OnClick,
-	formState: boolean
-}
+	handleClick: OnClick;
+	formState: boolean;
+};
 
 export const ArrowButton = (props: ArrowButtonProps) => {
 	const { handleClick, formState } = props;
 
 	const classNameForm = clsx(styles.container, {
-		[styles.container_open]: formState
+		[styles.container_open]: formState,
 	});
 
 	const classNameArrow = clsx({
 		[styles.arrow]: !formState,
-		[styles.arrow_open]: formState
+		[styles.arrow_open]: formState,
 	});
 
 	return (

@@ -39,4 +39,15 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'off',
 		'import/no-named-as-default': 'off',
 	},
+	"ignorePatterns": [
+		'.eslintrc.js',
+		'node_modules/*',
+		'public/',
+		'.storybook/',
+		'build/',
+		'dist/',
+		'webpack/*.js',
+		'package*.json',
+		'src/*'
+	]
 };
